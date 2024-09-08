@@ -1,3 +1,5 @@
+"use client"; // src/app/(cms)/admin/page.tsx
+
 export default function Admin() {
   return (
     <html

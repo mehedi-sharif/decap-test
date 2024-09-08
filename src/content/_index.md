@@ -299,3 +299,4 @@ faq:
         listed in this article. You may notice that an additional payment method
 ---
 
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nesciunt quos suscipit odio ad provident perspiciatis minus optio velit incidunt quam, facere voluptas corporis labore. Earum delectus qui pariatur iure.

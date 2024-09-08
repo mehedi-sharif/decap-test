@@ -1,12 +1,16 @@
 # public/admin/config.yml
 
-# backend:
-# name: git-gateway
-# repo: karlthomaas/rental-decap-cms
-# branch: main
+local_backend: true
 
-media_folder: "src/assets/images" # Location where files will be stored in the repo
-public_folder: "src/assets/images" # The src attribute for uploaded med
+backend:
+  name: git-gateway
+  repo: tfmukles/parkquality
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "public/images" # Location where files will be stored in the repo
+public_folder: "public/images" # The src attribute for uploaded med
 
 # Here we define content structure
 collections:
@@ -15,7 +19,7 @@ collections:
     files:
       - label: "Hero"
         name: "hero"
-        file: "src/content/homepage/hero.md" # Path to the markdown file
+        file: "src/content/homepage/hero.md"
         create: true
         fields:
           - { label: "Title", name: "title", widget: "string" }
