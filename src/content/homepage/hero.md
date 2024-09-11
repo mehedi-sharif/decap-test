@@ -1,5 +1,6 @@
 ---
-title: Find your Wheels
-subtitle: Your Journey, Our Wheels
-buttonText: Explore now
+title: " Hi"
+subtitle: subtitle
+backgroundImage: public/images/banner.jpg
+buttonText: fadfasdf
 ---
